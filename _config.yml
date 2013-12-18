@@ -2,6 +2,7 @@ name: All the Tech Things
 description: Blog about all the tech things that inspire me.
 
 url: "nyghtowl.io"
+baseurl: /nyghtowl.io
 
 paginate: 10
 
@@ -14,5 +15,4 @@ markdown: redcarpet
 permalink: pretty
 pygments: true
 timezone: America/Los_Angeles
-
 

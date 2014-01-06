@@ -6,107 +6,90 @@
         <title>All the Tech Things</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 
-        <meta name="description" content="Blog about all the tech things that inspire me.">        <!-- syntax highlighting CSS -->
-
-        <link rel="stylesheet" href="/css/syntax.css">
-  
-        <script src="/js/jquery-2.0.3.js"></script>
+        <meta name="description" content="Blog about all the tech things that inspire me.">        
+        
         <link rel="stylesheet" href="/css/bootstrap.css">
-         <link rel="stylesheet" href="/css/bootstrap-theme.css">
-
-        <!-- Custom CSS -->
+        <link href="/css/sticky-footer-navbar.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/main.css">
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
 
-
-        <style>
-          body {
-            padding-top: 60px;
-          }
-        </style>
-
-        <script src="/js/bootstrap.js"></script>        
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
-    ript>
-        <![endif]-->
+              <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+              <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+            <![endif]-->
+
     </head>
-    <body>
+    <body style>
 
+      <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-        <div class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">All the Tech Things</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schools <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Hackbright</a></li>
-                    <li><a href="#">edX</a></li>
-                    <li><a href="#">TBD</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Tech Stuff<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Python & Flask</a></li>
-                    <li><a href="#">Ruby & Rails</a></li>
-                    <li><a href="#">Arduino & Raspberry</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="./">Default</a></li>
-                <li><a href="../navbar-static-top/">Static top</a></li>
-                <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Nyghtowl's Blog</a>
           </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#learning">Learning</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programming <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Python</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                  <li><a href="#">Ruby</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header"></li>
+                  <li><a href="#">Arduino & Raspberry</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
 
-          <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    
-      <li><span>28 Dec 2013</span> &raquo; <a href="/jekyll/update/2013/12/28/welcome-to-jekyll/">Welcome to Nyghtowl!</a></li>
-    
-  </ul>
+      <!-- Begin page content -->
+      
+      <div class="container">
+        <div class="page-header">
+          <h1>Sticky footer with fixed navbar</h1>
+        </div>
+        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>
+        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+      </div>
+
+
+          <div class="container">
+    <div id="home">
+      <h2>Blog Posts</h2>
+      <ul class="posts">
+        
+          <li><span>28 Dec 2013</span> &raquo; <a href="/jekyll/update/2013/12/28/welcome-to-jekyll/">Welcome to Nyghtowl!</a></li>
+        
+      </ul>
+    </div>
 </div>
 
-                    <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/nyghtowl">github.com/nyghtowl</a><br />
-                <a href="https://twitter.com/nyghtowl">twitter.com/nyghtowl</a><br />
-              </p>
-            </div>
+                  
+    </div>
+        <div id="footer">
+          <div class="container">
+            <p class="text-muted text-right"><span>© 2014 | </span><a href="nyghtowl.io">Nyghtowl.io</a></p>
           </div>
         </div>
     </body>
-
+    <script src="/js/jquery-2.0.3.js"></script>
+    <script src="/js/bootstrap.js"></script>   
 </html>
 
 

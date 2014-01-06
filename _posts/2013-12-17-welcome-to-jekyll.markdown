@@ -22,3 +22,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
+
+Testing video imbed
+
+<iframe src="//player.vimeo.com/video/76784445" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Leaprobo Project from <a href="http://vimeo.com/user16942987">nyghtowl</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
